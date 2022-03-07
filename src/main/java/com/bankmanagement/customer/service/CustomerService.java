@@ -22,6 +22,7 @@ public class CustomerService {
 	
 	public ResponseEntity<String> updateCustomer(String userName, UpdateCustomer updateCustomer)
 	{
+		///hi i merge 3
 		CustomerEntity customerEntity = customerRepo.findByUserName(userName);
 		if(customerEntity == null)
 		{
