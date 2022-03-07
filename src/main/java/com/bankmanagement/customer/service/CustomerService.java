@@ -45,6 +45,7 @@ public class CustomerService {
 			customerRepo.save(customerEntity);
 			return ResponseEntity.ok("Update Successful");
 		}
+		//hii i merge 5
 	}
 	
 	public ResponseEntity<String> loginCustomer(String userName, String password){
