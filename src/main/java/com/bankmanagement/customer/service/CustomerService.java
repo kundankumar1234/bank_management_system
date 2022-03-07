@@ -30,6 +30,7 @@ public class CustomerService {
 		}
 		else
 		{
+			// hii i merge 4
 			if(!(updateCustomer.getAddress().equalsIgnoreCase(customerEntity.getAddress())))
 				customerEntity.setAddress(updateCustomer.getAddress());
 			if(!(updateCustomer.getCountry().equalsIgnoreCase(customerEntity.getCountry())))
@@ -44,6 +45,11 @@ public class CustomerService {
 			customerRepo.save(customerEntity);
 			return ResponseEntity.ok("Update Successful");
 		}
+		//hii i merge 5
+		
+		//hii merge 6 fetch 
+		
+		//merge 7
 	}
 	
 	public ResponseEntity<String> loginCustomer(String userName, String password){
