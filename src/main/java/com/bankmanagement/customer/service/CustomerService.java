@@ -48,6 +48,8 @@ public class CustomerService {
 		//hii i merge 5
 		
 		//hii merge 6 fetch 
+		
+		//merge 7
 	}
 	
 	public ResponseEntity<String> loginCustomer(String userName, String password){
