@@ -22,6 +22,7 @@ public class CustomerService {
 	
 	public ResponseEntity<String> updateCustomer(String userName, UpdateCustomer updateCustomer)
 	{
+		///hi i merge 3
 		CustomerEntity customerEntity = customerRepo.findByUserName(userName);
 		if(customerEntity == null)
 		{
@@ -29,6 +30,7 @@ public class CustomerService {
 		}
 		else
 		{
+			// hii i merge 4
 			if(!(updateCustomer.getAddress().equalsIgnoreCase(customerEntity.getAddress())))
 				customerEntity.setAddress(updateCustomer.getAddress());
 			if(!(updateCustomer.getCountry().equalsIgnoreCase(customerEntity.getCountry())))
