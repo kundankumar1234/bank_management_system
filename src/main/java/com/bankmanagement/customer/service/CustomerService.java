@@ -46,6 +46,8 @@ public class CustomerService {
 			return ResponseEntity.ok("Update Successful");
 		}
 		//hii i merge 5
+		
+		//hii merge 6 fetch 
 	}
 	
 	public ResponseEntity<String> loginCustomer(String userName, String password){
