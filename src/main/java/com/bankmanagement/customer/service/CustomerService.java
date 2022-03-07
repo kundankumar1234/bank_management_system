@@ -50,6 +50,8 @@ public class CustomerService {
 		//hii merge 6 fetch 
 		
 		//merge 7
+		
+		// last merge 8
 	}
 	
 	public ResponseEntity<String> loginCustomer(String userName, String password){
