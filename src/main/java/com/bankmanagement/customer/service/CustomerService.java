@@ -30,6 +30,7 @@ public class CustomerService {
 		}
 		else
 		{
+			// hii i merge 4
 			if(!(updateCustomer.getAddress().equalsIgnoreCase(customerEntity.getAddress())))
 				customerEntity.setAddress(updateCustomer.getAddress());
 			if(!(updateCustomer.getCountry().equalsIgnoreCase(customerEntity.getCountry())))
