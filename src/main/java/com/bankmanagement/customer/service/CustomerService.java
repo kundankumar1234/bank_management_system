@@ -52,6 +52,7 @@ public class CustomerService {
 		//merge 7
 		
 		// last merge 8
+		
 	}
 	
 	public ResponseEntity<String> loginCustomer(String userName, String password){
